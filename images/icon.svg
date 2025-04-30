@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆形 -->
+  <circle cx="64" cy="64" r="60" fill="#4285f4"/>
+  
+  <!-- 书本形状 -->
+  <path d="M35 40 V88 C35 92 39 96 43 96 H92 C90 96 88 94 88 92 V44 C88 42 90 40 92 40 H43 C39 40 35 36 35 32" fill="#ffffff"/>
+  <path d="M88 44 V92 C88 94 90 96 92 96 H92 C94 96 96 94 96 92 V44 C96 42 94 40 92 40 H92 C90 40 88 42 88 44" fill="#f5f5f5"/>
+  
+  <!-- 漫画面板 -->
+  <rect x="45" y="50" width="32" height="16" rx="2" fill="#ea4335"/>
+  <rect x="45" y="70" width="32" height="16" rx="2" fill="#34a853"/>
+  
+  <!-- 自动滚动指示 -->
+  <path d="M95 54 L100 60 L105 54" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M95 64 L100 70 L105 64" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M95 74 L100 80 L105 74" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg> 

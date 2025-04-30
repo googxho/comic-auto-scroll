@@ -1,0 +1,186 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.container {
+  width: 300px;
+  padding: 15px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.control-group {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.control-separator {
+  height: 1px;
+  background-color: #ddd;
+  margin: 15px 0;
+}
+
+label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+input[type="range"] {
+  flex: 1;
+  margin-right: 10px;
+}
+
+#speed-value {
+  font-weight: bold;
+  min-width: 30px;
+  text-align: right;
+}
+
+.speed-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.speed-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.speed-button:hover {
+  background-color: #2980b9;
+}
+
+#speed-input {
+  width: 60px;
+  text-align: center;
+  margin: 0 10px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.toggle-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.toggle-button.active {
+  background-color: #e74c3c;
+}
+
+.toggle-button:hover {
+  opacity: 0.9;
+}
+
+.secondary-button {
+  width: 100%;
+  padding: 8px;
+  background-color: #34495e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.secondary-button:hover {
+  background-color: #2c3e50;
+}
+
+#apply-settings {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#apply-settings:hover {
+  background-color: #2980b9;
+}
+
+.container-info {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-info p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.mini-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 4px 8px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.mini-button:hover {
+  background-color: #c0392b;
+}
+
+#status-indicator {
+  margin-top: 15px;
+  padding: 8px;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* 滚动状态指示器的不同状态 */
+#status-indicator.scrolling {
+  background-color: #e1f5fe;
+  color: #0288d1;
+}
+
+#status-indicator.paused {
+  background-color: #fff3e0;
+  color: #ff9800;
+}
+
+input[type="checkbox"] {
+  margin-right: 6px;
+} 

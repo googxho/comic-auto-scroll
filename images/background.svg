@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1200" height="800" fill="#f5f5f5"/>
+  
+  <!-- 漫画书架 - 顶部 -->
+  <rect x="50" y="50" width="1100" height="20" fill="#8d6e63"/>
+  
+  <!-- 漫画书架 - 底部 -->
+  <rect x="50" y="730" width="1100" height="20" fill="#8d6e63"/>
+  
+  <!-- 漫画书架 - 侧面 -->
+  <rect x="50" y="50" width="20" height="700" fill="#a1887f"/>
+  <rect x="1130" y="50" width="20" height="700" fill="#a1887f"/>
+  
+  <!-- 漫画书1 -->
+  <rect x="100" y="100" width="80" height="630" fill="#4285f4"/>
+  <rect x="110" y="120" width="60" height="20" fill="white"/>
+  
+  <!-- 漫画书2 -->
+  <rect x="200" y="100" width="70" height="630" fill="#ea4335"/>
+  <rect x="210" y="120" width="50" height="20" fill="white"/>
+  
+  <!-- 漫画书3 -->
+  <rect x="290" y="100" width="90" height="630" fill="#34a853"/>
+  <rect x="300" y="120" width="70" height="20" fill="white"/>
+  
+  <!-- 漫画书4 -->
+  <rect x="400" y="100" width="60" height="630" fill="#fbbc05"/>
+  <rect x="410" y="120" width="40" height="20" fill="white"/>
+  
+  <!-- 漫画书5 -->
+  <rect x="480" y="100" width="75" height="630" fill="#673ab7"/>
+  <rect x="490" y="120" width="55" height="20" fill="white"/>
+  
+  <!-- 抽出的漫画书 -->
+  <rect x="600" y="200" width="500" height="400" fill="white" stroke="#333" stroke-width="2"/>
+  
+  <!-- 漫画面板 -->
+  <rect x="630" y="230" width="200" height="150" rx="5" fill="#f5f5f5" stroke="#333"/>
+  <rect x="860" y="230" width="200" height="150" rx="5" fill="#f5f5f5" stroke="#333"/>
+  <rect x="630" y="410" width="200" height="150" rx="5" fill="#f5f5f5" stroke="#333"/>
+  <rect x="860" y="410" width="200" height="150" rx="5" fill="#f5f5f5" stroke="#333"/>
+  
+  <!-- 阅读指示器 -->
+  <circle cx="730" cy="305" r="40" fill="#4285f4" opacity="0.3"/>
+</svg> 
